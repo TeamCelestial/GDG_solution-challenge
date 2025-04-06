@@ -1,0 +1,9 @@
+# config.yaml - Settings (API Keys, Thresholds)
+
+api_keys:
+  text_moderation: "AIzaSyAJ8LahiDr5lCQt_RzC_vbBU91B2pel85w"
+  image_moderation: "AIzaSyAJ8LahiDr5lCQt_RzC_vbBU91B2pel85w"
+
+thresholds:
+  text_moderation: 0.8
+  image_moderation: 0.9
