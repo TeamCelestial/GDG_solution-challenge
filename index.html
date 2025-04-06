@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>AI Moderation System</title>
+</head>
+<body>
+
+<header>
+    <h1>AI Moderation System</h1>
+</header>
+
+<div>
+    <h2>Text Moderation</h2>
+    <textarea id="textInput"></textarea>
+    <button onclick="handleText()">Predict Text</button>
+    <p id="textResult"></p>
+</div>
+
+<script src="static/script.js"></script>
+<script>
+    async function handleText() {
+        const text = document.getElementById('textInput').value;
+        const prediction = await predictText(text);
+        document.getElementById('textResult').innerText = 'Prediction: ' + prediction;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# logs.txt - Logging User Reports
+# Date: 2025-04-01
+# User: User1
+# Text Moderation Prediction: Hate Speech Detected
